@@ -1,0 +1,143 @@
+table {
+    margin: 0 auto;
+    max-width: 500px;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+   
+}
+
+tr {
+    background: #1f2833;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    margin:0;
+}
+
+h1, h2, h3 {
+    padding: 0 100px;
+    margin:8px 0;
+    font-weight: bold;
+    
+  
+}
+
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    border: 2px black solid;
+    padding: 10px 100px;
+    background:white;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+    padding-top: 35px;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: left;
+}
+
+
+
+
+
+.landing{
+    background-image: url("https://themarketcreative.com/wp-content/uploads/2017/05/New-Balance-Blog-Posts2-uai-2064x1315.jpg");
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    background-blend-mode: lighten;
+    height: 550px;
+}
+
+
+.landing td p:nth-of-type(1){
+    color: #cf0a2c;
+    font-size: 40px;
+    margin-top: 126px;
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+.landing td p:nth-of-type(2) {
+    font-size: 22px;
+    color: #ffdce2;
+    font-weight: 600;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+
+
+.running {
+    background-image: url("http://jorgbadura.com//wp-content/uploads/2013/02/Jorg-Badura-10-New-Balance-Running.jpg");
+    height: 300px;
+}
+
+
+.running td p {
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.running td a {
+    text-decoration: none;
+    background-color: #cf0a2c;
+    padding: 15px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    float: right;
+    margin-right: 20px;
+}
+
+.lifestyle {
+    background-image: url("https://i.pinimg.com/originals/ea/cd/b2/eacdb2bf6012c802471a2c3a05947404.jpg");
+    height: 300px;
+}
+
+.lifestyle td p {
+    color: white;
+    font-size: 30px;
+    text-align: end;
+    padding-right: 20px;
+}
+
+.lifestyle td a {
+    text-decoration: none;
+    background-color: #cf0a2c;
+    padding: 15px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-left:20px;
+}
+
+.sport {
+    background-image: url("https://4.bp.blogspot.com/-hEbOcvFWZEE/VLtt3C6W3UI/AAAAAAAAcX8/UiLc9YXg4VQ/s738/Aaron-Ramsey-White-Orange-Black-New-Balance-Boots.JPG");
+    height: 300px;
+}
+
+.sport td p {
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.sport td a {
+    text-decoration: none;
+    background-color: #cf0a2c;
+    padding: 15px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    float: right;
+    margin-right: 20px;
+}
